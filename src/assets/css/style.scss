@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+
+}
+
+body {
+  margin: 0;
+  background: #f5f5f5;
+  // background: url('../images/bg.png');
+
+  padding: 0;
+  height: 100vh;
+}
+.btn-theme {
+  background: linear-gradient(180deg, #40baff 0%, #3072d0 100%) !important;
+
+}
+.el-input__inner {
+  border: 1px solid #828282;
+}
+.el-textarea__inner {
+  border: 1px solid #828282;
+}
+.ant-btn-primary{
+  background: linear-gradient(180deg, #40baff 0%, #3072d0 100%) !important;
+}
+
+
+
+// 新增的样式
+.ant-btn-background-ghost,
+.ant-btn-background-ghost {
+  background: #fff !important;
+}
+.ant-table-body{
+  color: rgb(0, 0, 0);
+  .ant-table-tbody {
+    tr td {
+     border-bottom: 2px solid #e8e8e8;
+    }
+  }
+  .ant-table-thead {
+    tr th {
+      // border: 0;
+      background: linear-gradient(180deg, #40baff 0%, #3072d0 100%);
+      color: #fff;
+    }
+  }
+     
+}
+.ant-input,
+.ant-input-number,
+.ant-select {
+  border: 1px solid #828282 ;
+  border-radius: 4px;
+}
